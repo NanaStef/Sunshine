@@ -1,9 +1,13 @@
 <html>
-
     <head>
-        <script type="text/javascrtipt" src="./node_modules/angular/angular.js"></script>
+        <title>NaNa Stef</title>
+        <script src="./node_modules/angular/angular.js"></script>
+        <script src="./main.js"></script>
     </head>
-    <body>
-    <div>hello world</div>
+
+    <body ng-app="app">
+        <div ng-controller="ctrl">
+            {{content}}
+        </div>
     </body>
 </html>
